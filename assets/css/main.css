@@ -87,16 +87,7 @@ h6 {
   font-family: var(--heading-font);
 }
 
-@media (max-width: 370px) {
-  
-  body{
-    font-size: 14px;
 
-  }
-  h1{
-    font-size: 5px;
-  }
-}
 
 /* PHP Email Form Messages
 ------------------------------*/
@@ -201,10 +192,23 @@ h6 {
   transition: 0.3s;
 }
 
+
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: var(--contrast-color);
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
+}
+
+@media (max-width: 00px) {
+
+  .header .logo h1 {
+    font-size: 7px;
+    margin: 0;
+    font-weight: 500;
+    color: var(--heading-color);
+
+  }
+
 }
 
 @media (max-width: 1200px) {
